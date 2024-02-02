@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>sae 1.05 Traitement des données</title>
+    <style>
+        body {
+            background-color: #131415; /* Couleur noir foncé */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #bed5e5; /* Couleur bleu clair */
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2, h3 {
+            color: #3498DB; /* Couleur bleu clair */
+        }
+
+        a {
+            color: #ECF0F1; /* Couleur gris clair */
+            text-decoration: none;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #34495E; /* Couleur gris foncé */
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Projet SAE 15</h1>
+        <p>Présentation des informations pertinentes du fichier "traiter".</p>
+    </header>
+
+    <main>
+        <h2>Nombre total des trames changées</h2>
+        <p>[11016]</p>
+
+        <h2>Drapeaux (Flags)</h2>
+        <p>Nombre de flags [P] (PUSH) = [1673]</p>
+        <p>Nombre de flags [S] (SYN) = [2046]</p>
+        <p>Nombre de flag [.] (ACK) = [6961]</p>
+        <img src="graphe1.png" alt="Flags Pie Chart">
+
+        <h2>Nombre des requests et replys</h2>
+        <p>Request = [42]</p>
+        <p>Reply = [42]</p>
+        <img src="graphe2.png" alt="Requests and Replies Pie Chart">
+
+        <h2>Statistiques entre seq, win et ack</h2>
+        <p>Nombre de seq = [8201]</p>
+        <p>Nombre de win = [10766]</p>
+        <p>Nombre de ack = [8768]</p>
+    </main>
+
+    <footer>
+        <p>&copy;Bouboule</p>
+    </footer>
+</body>
+
+</html>
